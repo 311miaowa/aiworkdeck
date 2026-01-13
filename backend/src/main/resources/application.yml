@@ -34,9 +34,9 @@ external:
     key: f4900a7dd885415cb305edc621f5b490
     secret: 9C16665DB7BA6661FAAC35EF1321FA3C
   wps:
-    app-id: AK20251215TTJNYB
-    app-secret: ofsDctOavehqtBubXPuCCemjpkvLFoHy
-    callback-base-url: https://kingide500.cpolar.top  # 使用 cpolar 内网穿透地址，供 WPS 回调使用
+    app-id: SX20260104RLPEYU
+    app-secret: XwyPtBEirMxtitGECNKhIBYKNCJDVIyA
+    callback-base-url: https://zuolinya.cpolar.top  # 使用 cpolar 内网穿透地址（当前实际URL，每次重启会变化）
   tushare:
     base-url: http://api.tushare.pro
     token: bc50eb0b3a1840d511a947dc2180628ac763f37e4d7ccdda35eb454a
@@ -95,7 +95,7 @@ storage:
     # 存储桶所在区域（例如：oss-cn-hangzhou、us-east-1）
     region: oss-cn-hangzhou
     # 自定义端点（可选，用于MinIO或私有部署）
-    endpoint: 
+    endpoint:
     # 文件存储路径前缀（可选，例如：wps-files/）
     path-prefix: wps-files/
     # 是否使用HTTPS

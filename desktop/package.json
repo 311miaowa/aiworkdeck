@@ -1,5 +1,7 @@
 {
   "name": "aiworkdeck-desktop",
+  "productName": "AI Workdeck",
+  "appId": "com.aiworkdeck.desktop",
   "private": true,
   "version": "0.1.0",
   "description": "AI Workdeck desktop shell (Electron)",
